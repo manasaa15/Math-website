@@ -1,0 +1,187 @@
+body{
+    font: Arial, helvetica, sans-serif;
+}
+
+
+
+
+
+#container{
+    width: 1050px;
+    border: 1px solid grey;
+    height:100px;
+    margin: 0 auto;
+  
+
+}
+h1{
+    font-size: 50px;
+     font-weight: 100px;
+    color: purple;
+    text-decoration: none;
+}
+
+#brand{
+    float: left;
+}
+
+#searchbox{
+    float: right;
+    background-color: rgba(167, 236, 62, 0.63);
+    width: 450px;
+    height: 50px;
+    padding: 2px;
+    margin-top: 40px;
+   
+
+}
+
+
+
+#header{
+    height: 100px;
+    padding: 10px, 0;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 2px;
+    font-size: 15px;
+    color: rgb(233, 122, 82);
+}
+.submit
+{
+    float: right;
+    padding: 2px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(231, 83, 231);
+}
+.clear{
+    clear:both;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#F8F954,#d5d533);
+    padding: 7px,0;
+    float: left;
+    width: 1050px;
+}
+
+#menu ul li{
+     float: left;
+     padding: 0 10px; 
+     border-right: 1px solid #5d12e7;
+     height: 30px;
+}
+
+#menu ul li last-child{
+    border-right: none;
+
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #5d12e7;
+    line-height: 30px;
+   transition: font-size 0.5s ease;
+}
+
+#menu ul li a:hover,#menu ul li a .active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #c34fdb;
+}
+
+#introduction{
+    background: linear-gradient(#e5f2bb,#b7e952);
+    padding: 15px;
+    margin: 10px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: #396981;
+    font-weight: normal;
+   
+}
+
+#introduction p{
+    font-size: 25px;
+    color:#628f19;
+    text-align: justify;
+}
+.sidebar
+{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    padding: 10px 30px;
+
+}
+
+.sidebar h3{
+font-size: #b314db;
+font-size: 25px;
+}
+
+#leftsidebar{
+float: left;
+}
+
+#rightsidebar{
+float: right;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+
+}
+
+.sidebar ul li a:hover {
+text-decoration: none;
+color: #b314db;
+font-size: 23px;
+font-weight: bold;
+transition: font-size 0.5s ease;
+}
+
+.leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+}
+.fa-solid.fa-arrow-right{
+    display: inline-block;
+}
+
+#leftsidebar ul li{
+    display: inline;
+    padding: 10px;
+}
+#rightsidebar ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.fa-sharp.fa-soli.fa-check{
+    display: inline-block;
+}
+
+.footer{
+    height: 60px;
+    background:linear-gradient(#f6f390, #d5d533);
+    padding: 10px, 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
